@@ -1,0 +1,49 @@
+.contact {
+    padding: 6.25rem 1.25rem;
+}
+textarea, input {
+    width: 100%;
+    padding: 0.87rem;
+    margin-top: 0.625rem;
+    margin-bottom: 0.625rem;
+    border: 1px solid #f0e9ff;
+    border-radius: 5px;
+    padding-left: 1.12rem;
+    font-size: 0.81rem;
+    background: transparent;
+}
+
+textarea:focus,
+input:focus {
+    outline: 0;
+      /*focus bu kodda chatga bosganda border rangi uzgarmedi */
+}
+
+.half-flex {
+    display: flex;
+}
+
+.contact-fname {
+    padding-right: 0.94rem;
+    flex: 1;    
+}
+
+.contact-email {
+    padding-left: 1.87rem;
+    flex: 1;
+}
+
+.contact-send {
+    margin-top: 30px;
+}
+
+d {
+    .half-flex {
+    flex-direction: column;
+    }
+
+    .contact-fname,
+    .contact-email {
+        padding: 0;
+    }
+}

@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<head>
+    <title>contact</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/shared.css">
+    <link rel="stylesheet" href="css/contact.css">
+</head>
+<body>
+     <!-- Hearder section-->
+     
+        <!-- Hearder section-->
+       
+        <header class="main-header">
+            <div class="container">  
+                <div class="main-header__brand">
+                    <a href="./index.html">
+                        <img class="main-header-brand" src="./images/logo_o2.png" alt="Logo">
+                    </a>
+                </div>
+                <nav class="main-navigation">
+                    <ul class="main-navigation__items"> <!--__ bems deyiladi-->
+                        <li class="main-navigation__item ">
+                            <a href="./index.html" active>Asosiy</a>
+                        </li>
+                        <li class="main-navigation__item">
+                            <a href="#">Men haqimda</a>
+                        </li>
+                        <li class="main-navigation__item">
+                            <a href="#">Xizmatlar</a>
+                        </li>
+                        <li class="main-navigation__item">
+                            <a href="#">Mijozlar</a>
+                        </li>
+                        <li class="main-navigation__item">
+                            <a href="#">Portfolio</a>
+                        </li>
+                        <li class="main-navigation__item">
+                            <a href="#">blog</a>
+                        </li>
+                        <li class="main-navigation__item">
+                            <a href="#">sheriklar</a>
+                        </li>
+                        <li class="main-navigation__item">
+                            <a href="./contact.html"> bog'lanish</a>
+                        </li>
+                        <li class="main-navigation__item active">
+                            <a href="./contact.html"> bog'lanish</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+    
+    <!-- /Hearder section -->
+
+    <div class="container">
+        <section class="contact">
+            <div class="section-title">
+                Men bilan bog'laning
+            </div>
+            <form action="/server.php" method="GET">
+                <textarea  rows="10" placeholder="Xabaringizni kiriting" name="message"></textarea>
+               <div class="half-flex">
+                    <div class=" contact-fname">
+                        <input type="text" placeholder="Ismingizni kiriting" name="fname">
+                    </div>
+                    <div class=" contact-email">
+                        <input type="email" placeholder="Emailingizni kiriting" name="email">
+                    </div>
+               </div>
+                <input type="text" placeholder="Xat mazmuni" name="subject">
+                <button class="button contact-send" type="submit">xabar jo'natish</button>
+            </form>
+
+        </section>
+    </div>
+  
+    <!-- Footer section-->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__brand">
+                <img src="./images/logo_o2.png" alt="logo">
+            </div>
+                <nav class="footer__navigation">
+                    <ul class="footer__navigation-items">
+                        <li class="footer__navigation-item">
+                            <a href="#">Asosiy</a>
+                        </li>
+                        <li class="footer__navigation-item">
+                            <a href="#">Men haqimda</a>
+                        </li>
+                        <li class="footer__navigation-item">
+                            <a href="#">Xizmatlar</a>
+                        </li class="footer__navigation-item">
+                        <li class="footer__navigation-item">
+                            <a href="#">Mijozlar</a>
+                        </li class="footer__navigation-item">
+                        <li class="footer__navigation-item">
+                            <a href="#">Portfolio</a>
+                        </li>
+                        <li class="footer__navigation-item">
+                            <a href="#">blog</a>
+                        </li>
+                        <li class="footer__navigation-item">
+                            <a href="#">sheriklar</a>
+                        </li>
+                    </ul>
+                </nav>
+                <ul class="footer__socials">
+                    <li class="footer__social">
+                        <a href="https:t.me/playmax" target="_blank ">
+                            <i class="fab fa-telegram"></i>
+                        </a>
+                    </li>
+                    <li class="footer__social">
+                        <a href="https://www.instagram.com/orzikulov.5000/" target="_blank">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </li>
+                    <li class="footer__social">
+                        <a href="https://www.facebook.com/orif.orzikulov.5" target="_blank">
+                            <i class="fab fa-facebook-square"></i>
+                        </a>
+                    </li>
+                </ul>
+                <p class="footer__text">
+                    Copyright ©2021 All rights reserved | This template is made with  by <span style="color: #A932C7;">Colorlib</span>
+                </p>
+        </div>
+    </footer>
+    <!-- /Footer section-->
+</body>
+</html>
